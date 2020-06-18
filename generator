@@ -1,0 +1,13 @@
+import random
+
+def passGener(text):
+    return ''.join(random.sample(text, 16))
+    
+print(passGener('abcdefjhijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+:.*=-?><'))
+
+# Out:  W8c$1UYP6u=Ml4DR
+        dOfi7U=ul)*n2.9N
+        vzZGYb9VpN@UaqmE
+        er?3U:*Y&#1(4BX5
+and ...
+        
